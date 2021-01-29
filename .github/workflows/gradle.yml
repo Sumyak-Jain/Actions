@@ -24,8 +24,4 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Download a single artifact
-      uses: actions/download-artifact@v2
-      with:
-       name: my-artifact
-       path:  https://github.com/Sumyak-Jain/Actions/tree/master/build
+
